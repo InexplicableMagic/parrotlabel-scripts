@@ -1,10 +1,10 @@
 # ParrotLabel Scripts
 
-Utility scripts for use with the [ParrotLabel](https://github.com/InexplicableMagic/parrotlabel) graphical image annotation tool, used for creating training data for object detection and other machine learning applications.
+Utility scripts for use with the [ParrotLabel](https://github.com/InexplicableMagic/parrotlabel) graphical image annotation tool. For creating training data for object detection and other machine learning applications.
 
 ## parrotlabel_to_tfrecords
 
-A script to convert the native ParrotLabel JSON format into the binary Tensorflow records format and also produces a Label Map (pbtxt) file for use with the TensorFlow Object Detection API. These files can be used as an input for training object detection in TensorFlow.
+A script to convert the native ParrotLabel JSON format into the TensorFlow [TFRecord](https://www.tensorflow.org/tutorials/load_data/tfrecord) format and also produces an associated Label Map (pbtxt) file. These files can be used as an input to the TensorFlow Object Detection API for training.
 
 Usage Example:
 
@@ -22,4 +22,4 @@ Followed by one or more ParrotLabel JSON format annotation files as arguments.
 
 ## example_annotations
 
-A example ParrotLabel JSON annotations file for testing scripts. Includes several annotated images or parrots.
+A example ParrotLabel JSON annotations file for testing scripts. Includes several annotated images of parrots.
