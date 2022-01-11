@@ -35,4 +35,4 @@ Followed by one or more ParrotLabel JSON format annotation files as arguments.
 
 ## example_annotations
 
-A example ParrotLabel JSON annotations file for testing scripts. Includes several annotated images of parrots.
+An example ParrotLabel JSON annotations file for testing scripts. Includes several annotated images of parrots.
